@@ -18,7 +18,6 @@
   "homepage": "https://github.com/wishmouse/street_art#readme",
   "dependencies": {
     "express": "^4.13.4",
-    "express-generator": "^4.13.1",
     "hbs": "^4.0.0",
     "nodemon": "^1.9.1"
   }
