@@ -1,0 +1,25 @@
+{
+  "name": "street_art",
+  "version": "1.0.0",
+  "description": "Wellington street art",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wishmouse/street_art.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wishmouse/street_art/issues"
+  },
+  "homepage": "https://github.com/wishmouse/street_art#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-generator": "^4.13.1",
+    "hbs": "^4.0.0",
+    "nodemon": "^1.9.1"
+  }
+}
