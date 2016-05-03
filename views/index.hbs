@@ -5,14 +5,17 @@
 <body>
 <h1>Header</h1>
 <br>
-  <input id="browse" type="file" onchange="previewFile()"></input>
-  <img src="" height="200"></img>
+<form method="post" action="/" encType="multipart/form-data">
+  <input id="browse" name="file" type="file" onChange="previewFile()"/>
+  <img src="" height="200" width="200"></img>
   <div id="preview"></div>
   <input id="notes" type="text" name="notes" value="moments to remember..."></input>
   <input type='submit' value='submit'></input>
-
-
+</form>
+<div id="status">
+</div>
 
 <script src="./js/script.js"></script>
+
 </body>
 </html>
