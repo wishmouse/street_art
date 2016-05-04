@@ -4,6 +4,9 @@
 </head>
 <body>
 <h1>Header</h1>
+{{#if user}}
+  <div>Hello {{user.name}}</div>
+{{/if}}
 <br>
 <form method="post" action="/" encType="multipart/form-data">
   <input id="browse" name="file" type="file" onChange="previewFile()"/>
@@ -14,6 +17,7 @@
 </form>
 <div id="status">
 </div>
+<a href="/auth/github">Login with Github</a>
 
 <script src="./js/script.js"></script>
 
