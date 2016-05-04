@@ -4,7 +4,7 @@
   "description": "Wellington street art",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon server.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -29,10 +29,13 @@
     "form-data": "^1.0.0-rc4",
     "hbs": "^4.0.0",
     "jquery": "^2.2.3",
+    "knex": "^0.10.0",
     "multiparty": "^4.1.2",
     "nodemon": "^1.9.1",
     "passport": "^0.3.2",
     "passport-facebook": "^2.1.0",
+    "passport-github": "^1.1.0",
+    "passport-github2": "^0.1.10",
     "pg": "^4.5.5",
     "request": "^2.72.0",
     "stream-body-parser": "0.0.1"
